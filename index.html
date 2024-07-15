@@ -532,7 +532,7 @@ Experienced in HTML5, CSS3, JavaScript Jquary and Bootstrap for responsive web d
       </div>
 
  
-      <form class="php-email-form mt-4" method="POST" action="https://script.google.com/macros/s/AKfycbyp7hnnubu2qk7Wng3XGYpxadrVxgqW2ecw3o1T-gHzLX2KgopD4KwHIRTgwOlshRo0/exec">
+      <form id="submit-form" class="php-email-form mt-4" action="">
         <div class="row">
           <div class="col-md-6 form-group">
             <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
@@ -555,7 +555,7 @@ Experienced in HTML5, CSS3, JavaScript Jquary and Bootstrap for responsive web d
         $("#submit-form").submit((e)=>{
             e.preventDefault()
             $.ajax({
-                url:"",
+                url:"https://script.google.com/macros/s/AKfycbyp7hnnubu2qk7Wng3XGYpxadrVxgqW2ecw3o1T-gHzLX2KgopD4KwHIRTgwOlshRo0/exec",
                 data:$("#submit-form").serialize(),
                 method:"post",
                 success:function (response){
