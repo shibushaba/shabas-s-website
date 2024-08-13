@@ -1472,7 +1472,7 @@ a:hover {
   left: -160px;
   top: -50px;
   z-index: 5;
-  width: calc(80% + 30px);
+  width: calc(80% + 20px);
   transform: translate3d(0, 0, 45px) perspective(100px);
   opacity: 1;
   pointer-events: auto;
